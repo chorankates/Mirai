@@ -1,5 +1,15 @@
 # [09 - Mirai](https://app.hackthebox.com/machines/Mirai)
 
+  * [description](#description)
+  * [walkthrough](#walkthrough)
+    * [recon](#recon)
+    * [80](#80)
+    * [53](#53)
+    * [back to 80](#back-to-80)
+    * [32400](#32400)
+    * [still digging](#still-digging)
+    * [pi](#pi)
+  * [flag](#flag)
 ![Mirai.png](Mirai.png)
 
 ## description
