@@ -114,6 +114,14 @@ Matching Modules
 that looks like a path, but all fail with BAD PASSWORD
 
 
+### 32400
+
+plex that has a login at [http://mirai.htb:32400/web/index.html](http://mirai.htb:32400/web/index.html)
+
+but it also allows "Sign Up" - but any name sent leads to "Username already taken", which is not accurate.
+
+or is it? the POST goes to `https://plex.tv/api/v2/users?X-Plex-Product=Plex Web&X-Plex-Version=3.9.1&X-Plex-Client-Identifier=016n0fqinkcga84rwinvudhl&X-Plex-Platform=Firefox&X-Plex-Platform-Version=101.0&X-Plex-Device=Linux&X-Plex-Device-Name=Plex Web (Firefox)&X-Plex-Device-Screen-Resolution=1908x969,3840x2160`
+
 
 ## flag
 ```
